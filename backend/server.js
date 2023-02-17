@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json()); // express json middleware
 app.use(express.urlencoded({ extended: false }));
 app.use(cors({
-  origin : ["http://localhost:3000,"]
+  origin : ["http://localhost:3000", "http://mern-task-manager.onrender.com"]
 } 
 )); // allows resource sharing btw fronend and backend
 app.use("/api/tasks", taskRoutes); // router is available for use

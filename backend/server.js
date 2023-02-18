@@ -14,7 +14,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(
   cors({
     origin: [
-      "http://localhost:3000", "https://todo-app-fr.onrender.com"
+      "http://localhost:3000",
+      "https://mern-task-app-frnt.onrender.com",
     ],
   })
 ); // allows resource sharing btw fronend and backend

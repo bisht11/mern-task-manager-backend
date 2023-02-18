@@ -15,7 +15,6 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://mern-task-manager-afmb.onrender.com/",
     ],
   })
 ); // allows resource sharing btw fronend and backend
